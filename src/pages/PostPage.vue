@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Page with posts</h1>
+    <h1>Page with posts from jsonplaceholder</h1>
     <mp-input v-focus v-model="searchQuery" placeholder="Search..." />
     <div class="app__btns">
       <mp-button @click="showDialog"> Create post </mp-button>
